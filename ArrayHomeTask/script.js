@@ -1,4 +1,4 @@
-let arr = ["Baku", "Ankara", "Paris", "Tehran", "Moskva", "New Yord"];
+let arr = ["Baku", "Ankara", "Paris", "Tehran", "Moskva", "New York"];
 let sortedArr = arr.toSorted();
 let sliceArr = sortedArr.slice(0, 3);
 // console.log(arr);
