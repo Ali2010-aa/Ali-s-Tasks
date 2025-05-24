@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.task-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 10vh;
+}
+.task-1 button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.task-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 10vh;
+}
+.task-2 p {
+  font-size: 24px;
+}
+.task-2 button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 18px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.task-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.task-3 button {
+  width: 150px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.5s ease;
+}
+.task-3 button:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.task-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  gap: 50px;
+}
+.task-4 input {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 18px;
+}
+.task-4 button {
+  width: 120px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+.task-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 50px;
+}
+.task-5-box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.task-5 button {
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  background-color: #17a2b8;
+  color: white;
+  cursor: pointer;
+  text-align: justify;
+}
+.task-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  gap: 75px;
+  font-size: 24px;
+}
+.task-6 input {
+  width: 200px;
+  height: 25px;
+  padding: 6px 8px;
+}
+.task-6 ul {
+  list-style: none;
+}
+.task-7 {
+  padding: 18px 24px;
+  text-align: center;
+}
+.task-7 .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#task7-darkButton {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+#task7-lightButton {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  cursor: pointer;
+}

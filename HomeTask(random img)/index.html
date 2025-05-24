@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random image</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="count">
+        <p id="black">Black:0</p>
+        <p id="white">White:0</p>
+      </div>
+      <div id="content">
+      <div class="white">
+        <img src="./dogImages/whiteDog.jpg" alt="White Dog" id="whiteImg"/>
+      </div>
+      <div class="black">
+        <img src="./dogImages/blackDog.jpg" alt="Black Dog" id="blackImg"/>
+      </div>
+      </div>
+      <div class="buttons">
+        <button id="rotate" onclick="rotate()">Rotate</button>
+        <button id="reset" onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
